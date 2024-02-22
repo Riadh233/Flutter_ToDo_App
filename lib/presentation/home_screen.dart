@@ -8,6 +8,8 @@ import 'package:to_do/presentation/widgets/todo_widget.dart';
 class HomeScreen extends StatelessWidget {
   final _textController = TextEditingController();
 
+  HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<ToDoListCubit, ToDoListState>(
